@@ -67,5 +67,26 @@ ifconfig 查看网络状态
 du -h 显示目录大小及信息
 df -h 显示磁盘大小及信息
 ```
-
+* 查看使用详情
+```
+command --help
+```
+* 杀死进程
+```
+kill <git 端口占用 tskill node>
+```
+* **vi详解**
+```
+vi file_name <有则编辑，没有新建并编辑>
+i <insert>
+esc <forbade insert>
+q <quit>
+wq <save and quit>
+! <coercion>
+:set number <显示行号>
+:set nonumber <隐藏行号>
+h <上移>
+j <左移>
+k <右移>
+l <下移>
 ```
