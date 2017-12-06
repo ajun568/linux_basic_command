@@ -36,3 +36,20 @@ mv file_name1 file_name2
 ```
 mv file_name folder/file_name <把file_name移动到folder文件夹下>
 ```
+* 查看文件内容
+```
+cat file_name <全部信息>
+head file_name <前一部分信息>
+tail file_name <后一部分信息>
+head -n 1 file_name <前一行>
+tail -n 5 file_name <最后5行>
+```
+* 清屏
+```
+clear
+```
+* **echo讲解**
+```
+echo content <直接输出content>
+echo *.jpg <找到所有该目录下以.jpg结尾的文件>
+```
