@@ -90,3 +90,24 @@ j <左移>
 k <右移>
 l <下移>
 ```
+* 切换用户
+```
+su user
+```
+* 最高权限
+```
+sudo
+```
+* 增加用户
+```
+adduser username
+```
+* 压缩文件
+```
+tar -cvf file_name <打包>
+tar -zcvf file_name <打包 并用gzip压缩>
+tar -jcvf file_name <打包 并用bzip2压缩>
+tar -xvf file_name <解压>
+tar -zxvf file_name <解压gzip>
+tar -jxvf file_name <解压bzip2>
+```
