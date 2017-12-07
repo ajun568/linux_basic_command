@@ -111,3 +111,9 @@ tar -xvf file_name <解压>
 tar -zxvf file_name <解压gzip>
 tar -jxvf file_name <解压bzip2>
 ```
+* 文件/目录权限设置
+```
+chomd <用于改变文件或目录的访问权限>
+chomd中mode值：自己 同组用户 其他用户 可读 可写 可执行
+例如：754 -> 111 101 100 -> 自己可读可写可执行 同组可读可执行 其他可读
+```
